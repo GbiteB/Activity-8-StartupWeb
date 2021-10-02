@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li {
+    list-style: none;
+}
+.hero-pg {
+    background-image: url(../img/dawson-mccormick-gN0u1Vswhkk-unsplash.jpg);
+    background-position: 50% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.img-aboutus {
+    height: 500px;
+    width: 450px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.text-aboutus {
+    padding: 75px 20px 0 50px;
+}
+
+.img-sizes {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.space-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.deal-bg {
+    width: 40%;
+}
+
+.footer-text {
+    width: 30%;
+}
+
+@media (max-width: 380px) {
+    .deal-bg {
+        width: 100%;
+    }
+}
