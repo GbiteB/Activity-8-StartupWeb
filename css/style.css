@@ -47,6 +47,18 @@ ul li {
     width: 30%;
 }
 
+.team-pics {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.form-width {
+    width: 50%;
+}
+
+
 @media (max-width: 380px) {
     .deal-bg {
         width: 100%;
